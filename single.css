@@ -1,0 +1,269 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #FAF7F7;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+header{
+     width: 100%;
+     height: 18vh;
+     font-family: Lovelace !important;
+     display: flex;
+     flex-direction: column;
+     justify-content: center;
+     align-items: center;
+     cursor:default;
+}
+
+nav{
+    width: 30%;
+    height: 40px;
+    font-size: 15px;
+    margin-top: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    }
+
+ul{
+    width: 100%;
+    height: 40px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    list-style-type: none;
+}
+
+li:hover{
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+.pro-view-sect{
+     width: 100%;
+     height: 100vh;
+     background-color: white;
+}
+
+a{
+    color: black;
+    text-decoration: none;
+}
+
+.back-link{
+     display: flex;
+     justify-content: flex-end;
+     font-size: 14px;
+     padding-top: 30px;
+     padding-right: 30px;
+}
+
+.back-icon{
+      font-size: 18px;
+}
+
+.pro-view-div{
+     width: 100%;
+     height: 90vh;
+     display: flex;
+     justify-content: space-around;
+     margin-top: 40px;
+}
+
+.pro-img{
+     width: 310px;
+     height: 400px;
+     display: flex;
+     flex-direction: column;
+     justify-content: center;
+     align-items: center;
+}
+
+.product{
+     width: 310px;
+     height: 280px;
+}
+
+.product img{
+     width: 100%;
+     height: 280px;
+}
+
+.preview-pro{
+      width: 100%;
+      height: 150px;
+      display: flex;
+      justify-content: space-between;
+      margin-top: 30px;
+}
+
+.prev1{
+      width: 82px;
+      height: 70px;
+}
+
+.prev1 img{
+    width: 100%;
+    height: 82px;
+}
+
+.pro-text{
+     width: 400px;
+     height: 400px;
+     display: flex;
+     flex-direction: column;
+     font-size: 18px;
+}
+
+.pro-text h3, p{
+    padding-bottom: 30px;
+}
+
+.pro-desc{
+     width: 352px;
+     height: 128px;
+     text-align: justify;
+     font-size: 14px;
+}
+
+.contact-btn-div{
+     width: 100%;
+     height: 100px;
+     display: flex;
+     justify-content: space-between;
+     align-items: center;
+     margin-top: 20px;
+}
+
+.btn{
+     width: 80%;
+     height: 50px; 
+}
+
+button{
+     width: 100%;
+     height: 50px;
+     background-color: black;
+     color: white;
+     border: none;
+     border-radius: 8px;
+     font-size: 16px;
+}
+
+.whatsapp-icon{
+      font-size: 50px;
+}
+
+@media screen and (max-width: 800px) {
+     .pro-view-div{
+          width: 100%;
+          height: 150vh;
+          display: flex;
+          flex-direction: column;
+          justify-content: space-around;
+          align-items: center;
+     } 
+
+     .pro-view-sect{
+          height: 170vh;
+     }
+
+     .pro-text{
+          justify-content: center;
+          align-items: center;
+     }
+
+     .contact-btn-div{
+          width: 100%;
+     }
+     
+}
+
+@media screen and (max-width: 400px) {
+          
+          .pro-text{
+               height: 500px;
+                width: 250px;
+          }
+
+          .prev1{
+               width: 60px;
+               height: 60vh;
+         }
+
+         .prev1 img{
+          height: 60px;
+      }
+
+          .product{
+               width: 250px;
+               height: 250px;
+          }
+          
+          .product img{
+               height: 250px;
+          }
+
+          .preview-pro{
+               width: 80%;
+               height: 150px;
+               display: flex;
+               justify-content: space-between;
+               margin-top: 30px;
+         }
+
+         .pro-desc{
+          width:  100%;
+          height: 128px;
+          text-align: justify;
+          font-size: 14px;
+          margin-bottom: 50px;
+     }
+     
+
+         
+     
+}
+@media screen and (max-width: 300px) {
+          
+          .pro-text{
+                height: 500px;
+                width: 200px;
+          }
+
+          .prev1{
+               width: 40px;
+               height: 40vh;
+         }
+
+         .prev1 img{
+          height: 40px;
+      }
+
+          .product{
+               width: 200px;
+               height: 200px;
+          }
+          
+          .product img{
+               height: 200px;
+          }
+
+         .pro-desc{
+          width:  100%;
+          font-size: 13px;
+     }
+
+     .preview-pro{
+          width: 200px;
+          justify-content: space-between;
+    }
+
+     
+
+         
+     
+}
